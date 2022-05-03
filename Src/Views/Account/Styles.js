@@ -4,12 +4,15 @@ import { heightPercentageToDP as hp } from 'react-native-responsive-screen';
 
 const widthScreen = Dimensions.get('window').width;
 const styles = StyleSheet.create({
-  backgroundWrapper: {
+  safeAreaContainer: {
     flex: 1,
+    backgroundColor: Colors.white
   },
-  mainLogo: {
-    width: '100%',
-    height: "100%",
-  }
+  safeHeadContainer: {
+    backgroundColor: "#0045A2"
+  },
+  scrollContent: {
+    marginBottom: hp(4)
+  },
 });
 export default styles;
