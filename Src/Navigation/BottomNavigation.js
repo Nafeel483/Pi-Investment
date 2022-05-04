@@ -17,7 +17,8 @@ import PIF from '../Views/PIF';
 import Investment from '../Views/Investment';
 import Blog from '../Views/Blog';
 import Notify from '../Views/Notify';
-
+import ProjectDetail from '../Views/ProjectDetail';
+import InvestmentProject from '../Views/InvestmentProject';
 
 const navigationRef = React.createRef();
 
@@ -52,7 +53,8 @@ export const ProjectsStack = () => {
         headerShown: false,
       }}>
       <ProjectStack.Screen name="ProjectsHome" component={Projects} />
-
+      <ProjectStack.Screen name="ProjectDetail" component={ProjectDetail} />
+      <ProjectStack.Screen name="InvestmentProject" component={InvestmentProject} />
     </ProjectStack.Navigator>
   );
 }

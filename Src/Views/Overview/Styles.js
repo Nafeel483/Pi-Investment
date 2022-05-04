@@ -365,7 +365,6 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     backgroundColor: "#CAD6DA",
     marginTop: hp(3),
-
   },
 });
 export default styles;

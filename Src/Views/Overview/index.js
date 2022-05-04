@@ -140,7 +140,11 @@ const Overview = (props) => {
                 <View style={Styles.headerContainer}>
 
                   <View style={Styles.leftCombine}>
-                    <TouchableOpacity>
+                    <TouchableOpacity onPress={() => {
+                      props.navigation.navigate('ProfileStack', {
+                        screen: 'Account',
+                      })
+                    }}>
                       <Image source={Images.ellipse} style={Styles.profileImage} />
                     </TouchableOpacity>
                     <Text style={Styles.profileText}>{"Nguyễn Hồng Đức"}</Text>

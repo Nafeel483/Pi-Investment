@@ -24,6 +24,12 @@ const images = {
   revenuePending: require('../Assets/home/revenuePending.png'),
   arrowRight: require('../Assets/home/arrowRight.png'),
   line: require('../Assets/home/line.png'),
+  model: require('../Assets/home/model.png'),
+  indicator1: require('../Assets/home/indicator1.png'),
+  indicator2: require('../Assets/home/indicator2.png'),
+  indicator3: require('../Assets/home/indicator3.png'),
+  indicator4: require('../Assets/home/indicator4.png'),
+
 
   // Home list
   list1: require('../Assets/homeList/list1.png'),
@@ -31,5 +37,28 @@ const images = {
   list3: require('../Assets/homeList/list3.png'),
   list4: require('../Assets/homeList/list4.png'),
   list5: require('../Assets/homeList/list5.png'),
+  list6: require('../Assets/homeList/list6.png'),
+  list7: require('../Assets/homeList/list7.png'),
+  headList1: require('../Assets/homeList/headList1.png'),
+  headList2: require('../Assets/homeList/headList2.png'),
+  pif1: require('../Assets/homeList/pif1.png'),
+  pif2: require('../Assets/homeList/pif2.png'),
+  pif3: require('../Assets/homeList/pif3.png'),
+
+
+
+  // Profile
+  member: require('../Assets/profile/member.png'),
+  history: require('../Assets/profile/history.png'),
+  changePass: require('../Assets/profile/changePass.png'),
+  securityLayer: require('../Assets/profile/securityLayer.png'),
+  accountVerify: require('../Assets/profile/accountVerify.png'),
+  updateBank: require('../Assets/profile/updateBank.png'),
+  personalInfo: require('../Assets/profile/personalInfo.png'),
+  userManual: require('../Assets/profile/userManual.png'),
+  support: require('../Assets/profile/support.png'),
+  chevronIcon: require('../Assets/profile/chevronIcon.png'),
+  time: require('../Assets/profile/time.png'),
+
 };
 export default images;
